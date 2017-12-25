@@ -15,6 +15,13 @@
 		041951321FEF75C5008F0BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041951311FEF75C5008F0BC2 /* main.m */; };
 		0419513C1FEF75C5008F0BC2 /* DemoZJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419513B1FEF75C5008F0BC2 /* DemoZJTests.m */; };
 		041951471FEF75C5008F0BC2 /* DemoZJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041951461FEF75C5008F0BC2 /* DemoZJUITests.m */; };
+		0419515A1FEF772D008F0BC2 /* JJKSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041951591FEF772D008F0BC2 /* JJKSViewController.m */; };
+		0419515D1FEF7739008F0BC2 /* YJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419515C1FEF7739008F0BC2 /* YJSViewController.m */; };
+		041951601FEF7742008F0BC2 /* PMZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419515F1FEF7742008F0BC2 /* PMZViewController.m */; };
+		041951631FEF775C008F0BC2 /* PaiMaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041951621FEF775C008F0BC2 /* PaiMaiViewController.m */; };
+		041951681FEF7A24008F0BC2 /* PaiMaiTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041951671FEF7A24008F0BC2 /* PaiMaiTopView.m */; };
+		041951701FEF849D008F0BC2 /* PaiMaiTopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419516F1FEF849D008F0BC2 /* PaiMaiTopModel.m */; };
+		E890C0066ECC25309CD44CC2 /* libPods-DemoZJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 639521CB903248C593A6CBA1 /* libPods-DemoZJ.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		041951421FEF75C5008F0BC2 /* DemoZJUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoZJUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041951461FEF75C5008F0BC2 /* DemoZJUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoZJUITests.m; sourceTree = "<group>"; };
 		041951481FEF75C5008F0BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041951581FEF772D008F0BC2 /* JJKSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJKSViewController.h; sourceTree = "<group>"; };
+		041951591FEF772D008F0BC2 /* JJKSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKSViewController.m; sourceTree = "<group>"; };
+		0419515B1FEF7739008F0BC2 /* YJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJSViewController.h; sourceTree = "<group>"; };
+		0419515C1FEF7739008F0BC2 /* YJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJSViewController.m; sourceTree = "<group>"; };
+		0419515E1FEF7742008F0BC2 /* PMZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMZViewController.h; sourceTree = "<group>"; };
+		0419515F1FEF7742008F0BC2 /* PMZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMZViewController.m; sourceTree = "<group>"; };
+		041951611FEF775C008F0BC2 /* PaiMaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaiMaiViewController.h; sourceTree = "<group>"; };
+		041951621FEF775C008F0BC2 /* PaiMaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaiMaiViewController.m; sourceTree = "<group>"; };
+		041951661FEF7A24008F0BC2 /* PaiMaiTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaiMaiTopView.h; sourceTree = "<group>"; };
+		041951671FEF7A24008F0BC2 /* PaiMaiTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaiMaiTopView.m; sourceTree = "<group>"; };
+		0419516E1FEF849D008F0BC2 /* PaiMaiTopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaiMaiTopModel.h; sourceTree = "<group>"; };
+		0419516F1FEF849D008F0BC2 /* PaiMaiTopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaiMaiTopModel.m; sourceTree = "<group>"; };
+		2C8DFFCC9730AA79F458598A /* Pods-DemoZJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoZJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoZJ/Pods-DemoZJ.release.xcconfig"; sourceTree = "<group>"; };
+		639521CB903248C593A6CBA1 /* libPods-DemoZJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoZJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC614771AD52343F249CF25F /* Pods-DemoZJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoZJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoZJ/Pods-DemoZJ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E890C0066ECC25309CD44CC2 /* libPods-DemoZJ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				0419513A1FEF75C5008F0BC2 /* DemoZJTests */,
 				041951451FEF75C5008F0BC2 /* DemoZJUITests */,
 				041951201FEF75C5008F0BC2 /* Products */,
+				9F7B922A952A5C0B05BC4902 /* Pods */,
+				6BBE731F48AFD26D7C324CC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 		041951211FEF75C5008F0BC2 /* DemoZJ */ = {
 			isa = PBXGroup;
 			children = (
+				041951541FEF75DA008F0BC2 /* PaiMai */,
 				041951221FEF75C5008F0BC2 /* AppDelegate.h */,
 				041951231FEF75C5008F0BC2 /* AppDelegate.m */,
 				041951251FEF75C5008F0BC2 /* ViewController.h */,
@@ -132,6 +158,90 @@
 			path = DemoZJUITests;
 			sourceTree = "<group>";
 		};
+		041951541FEF75DA008F0BC2 /* PaiMai */ = {
+			isa = PBXGroup;
+			children = (
+				041951651FEF79F2008F0BC2 /* ChirldVC */,
+				041951641FEF79E7008F0BC2 /* view */,
+				041951611FEF775C008F0BC2 /* PaiMaiViewController.h */,
+				041951621FEF775C008F0BC2 /* PaiMaiViewController.m */,
+			);
+			path = PaiMai;
+			sourceTree = "<group>";
+		};
+		041951551FEF76DF008F0BC2 /* PaiMaiZhong */ = {
+			isa = PBXGroup;
+			children = (
+				0419515E1FEF7742008F0BC2 /* PMZViewController.h */,
+				0419515F1FEF7742008F0BC2 /* PMZViewController.m */,
+			);
+			path = PaiMaiZhong;
+			sourceTree = "<group>";
+		};
+		041951561FEF76F5008F0BC2 /* YiJieShu */ = {
+			isa = PBXGroup;
+			children = (
+				0419515B1FEF7739008F0BC2 /* YJSViewController.h */,
+				0419515C1FEF7739008F0BC2 /* YJSViewController.m */,
+			);
+			path = YiJieShu;
+			sourceTree = "<group>";
+		};
+		041951571FEF7707008F0BC2 /* JiJiangKaiShi */ = {
+			isa = PBXGroup;
+			children = (
+				041951581FEF772D008F0BC2 /* JJKSViewController.h */,
+				041951591FEF772D008F0BC2 /* JJKSViewController.m */,
+			);
+			path = JiJiangKaiShi;
+			sourceTree = "<group>";
+		};
+		041951641FEF79E7008F0BC2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0419516D1FEF848B008F0BC2 /* model */,
+				041951661FEF7A24008F0BC2 /* PaiMaiTopView.h */,
+				041951671FEF7A24008F0BC2 /* PaiMaiTopView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		041951651FEF79F2008F0BC2 /* ChirldVC */ = {
+			isa = PBXGroup;
+			children = (
+				041951571FEF7707008F0BC2 /* JiJiangKaiShi */,
+				041951561FEF76F5008F0BC2 /* YiJieShu */,
+				041951551FEF76DF008F0BC2 /* PaiMaiZhong */,
+			);
+			path = ChirldVC;
+			sourceTree = "<group>";
+		};
+		0419516D1FEF848B008F0BC2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0419516E1FEF849D008F0BC2 /* PaiMaiTopModel.h */,
+				0419516F1FEF849D008F0BC2 /* PaiMaiTopModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6BBE731F48AFD26D7C324CC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				639521CB903248C593A6CBA1 /* libPods-DemoZJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F7B922A952A5C0B05BC4902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC614771AD52343F249CF25F /* Pods-DemoZJ.debug.xcconfig */,
+				2C8DFFCC9730AA79F458598A /* Pods-DemoZJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0419514B1FEF75C5008F0BC2 /* Build configuration list for PBXNativeTarget "DemoZJ" */;
 			buildPhases = (
+				5F9038C3A1030FDBEF980FC8 /* [CP] Check Pods Manifest.lock */,
 				0419511B1FEF75C5008F0BC2 /* Sources */,
 				0419511C1FEF75C5008F0BC2 /* Frameworks */,
 				0419511D1FEF75C5008F0BC2 /* Resources */,
+				10C485D3F92A181E752BAC5B /* [CP] Embed Pods Frameworks */,
+				43D77BA03A0A74E85BFCAD95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,11 +373,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10C485D3F92A181E752BAC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoZJ/Pods-DemoZJ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43D77BA03A0A74E85BFCAD95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoZJ/Pods-DemoZJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9038C3A1030FDBEF980FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoZJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0419511B1FEF75C5008F0BC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0419515A1FEF772D008F0BC2 /* JJKSViewController.m in Sources */,
+				041951681FEF7A24008F0BC2 /* PaiMaiTopView.m in Sources */,
+				0419515D1FEF7739008F0BC2 /* YJSViewController.m in Sources */,
+				041951701FEF849D008F0BC2 /* PaiMaiTopModel.m in Sources */,
+				041951631FEF775C008F0BC2 /* PaiMaiViewController.m in Sources */,
+				041951601FEF7742008F0BC2 /* PMZViewController.m in Sources */,
 				041951271FEF75C5008F0BC2 /* ViewController.m in Sources */,
 				041951321FEF75C5008F0BC2 /* main.m in Sources */,
 				041951241FEF75C5008F0BC2 /* AppDelegate.m in Sources */,
@@ -428,6 +598,7 @@
 		};
 		0419514C1FEF75C5008F0BC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC614771AD52343F249CF25F /* Pods-DemoZJ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +612,7 @@
 		};
 		0419514D1FEF75C5008F0BC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8DFFCC9730AA79F458598A /* Pods-DemoZJ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
